@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- comentario en html-->
+    <!-- la etiqueta h1 solo se puede usar una vez en cada html-->
+    <h1>encabezado 1</h1>
+    <h2>encabezado 2</h2>
+    <h3>encabezado 3</h3>
+    <h4>encabezado 4</h4>
+    <h5>encabezado 5</h5>
+    <h6>encabezado 6</h6>
+    <h2>Quienes somos?</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam et quam iusto, doloribus aliquid nam. Nulla
+        perferendis fugiat a dignissimos reiciendis, obcaecati esse, sed incidunt assumenda officiis, consectetur nobis
+        et!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quos ipsam ex laborum fugit rerum, id, unde
+        suscipit ea ad laboriosam quasi explicabo deserunt consectetur magni non atque adipisci nihil!</p>
+    <h2>Ejemplo listas</h2>
+    <ul>
+        <li>Boca</li>
+        <li>River</li>
+        <li>San Lorenzo</li>
+    </ul>
+    <ol>
+        <li>Boca</li>
+        <li>River</li>
+        <li>San Lorenzo</li>
+    </ol>
+    <h2>Vinculo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ducimus eius pariatur cum nobis possimus dolores
+        omnis voluptatibus recusandae quae magnam consequatur molestias enim quo ab, animi doloremque. <a
+            href="https://www.mercadolibre.com.ar/" target="_blank">AQUI</a></p>
+    <h2>Trabajamos con imágenes</h2>
+    <img src="dipper.jpg" alt="La imagen de Dipper">
+    <img src="img/casa.jpg" alt="Casa">
+    
+    <audio src="BERSUIT VERGARABAT-HUAYNO 14(EL BAILE INTERIOR).mp3" controls></audio>
+    <video src="1. Soltamos la marca vs Burzaco segundo tiempo 5vs3.mp4" poster="" controls></video>
+ 
+    <h2>Contáctenos</h2>
+    <form action="" method="">
+        <p>
+            <label for="nom">Nombre</label>
+            <input type="text" name="Nombre" />
+        </p>
+        <p>
+            <input type="text" name="apellido" placeholder="Apellido" />
+        </p>
+        <p>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass" />
+        </p>
+        <label for="sexo">Sexo</label>
+            <ul>
+                <li>
+                    <input type="radio" name="sexo" value="hombre">
+                    <label>Hombre</label>
+                </li>
+                <li>
+                    <input type="radio" name="sexo" value="mujer">
+                    <label>Mujer</label>
+                </li>
+            </ul>
+        <label>Hobbies</label>
+        <ul>
+            <li>
+                <input type="checkbox" name="hobbies()" value="bailar" id="bailar" />
+                <label for="bailar">Bailar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="hobbies()" value="cantar" id="cantar">
+                <label for="cantar">Cantar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="hobbies()" value="nadar" id="nadar">
+                <label for="nadar">Nadar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="hobbies()" value="correr" id="correr">
+                <label for="correr">Correr</label>
+            </li>
+        </ul>
+        <p>
+            <label for="titulo">Título</label>
+            <Select name="titulo">
+                <option value="primario">Primario</option>
+                <option value="secundario">Secundario</option>
+                <option value="terciario">Terciario</option>
+                <option value="universitario">Universitario</option> 
+            </Select>
+        </p>
+        <p>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
+        </p>
+    </form>
+</body>
+
+</html>
